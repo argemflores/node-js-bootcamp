@@ -1,0 +1,4 @@
+(base) ➜  node-js-bootcamp git:(main) ✗ cd Section\ 2
+(base) ➜  Section 2 git:(main) ✗ cd 7.\ Your\ First\ Node.js\ Script
+(base) ➜  7. Your First Node.js Script git:(main) ✗ node hello.js
+Hello, world!

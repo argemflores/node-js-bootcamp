@@ -1,0 +1,63 @@
+(base) ➜  notes-app git:(main) node -v
+v17.0.1
+(base) ➜  notes-app git:(main) npm -v
+8.1.0
+(base) ➜  notes-app git:(main) npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (notes-app)
+version: (1.0.0)
+description:
+entry point: (app.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to /Users/argemflores/Workspace/node-js-bootcamp/notes-app/package.json:
+
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+(base) ➜  notes-app git:(main) ✗ npm i validator@10.8.0
+
+added 1 package, and audited 2 packages in 1s
+
+1 moderate severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(base) ➜  notes-app git:(main) ✗ node app.js
+Your notes...
+true
+(base) ➜  notes-app git:(main) ✗ node app.js
+Your notes...
+false
+(base) ➜  notes-app git:(main) ✗ node app.js
+Your notes...
+true
+false
+true
+false
+(base) ➜  notes-app git:(main) ✗

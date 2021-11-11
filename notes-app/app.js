@@ -22,4 +22,4 @@ console.log(chalk.yellow('Warning!')) // yellow text
 console.log(chalk.inverse('Testing!')) // inverse colors
 console.log(chalk.bold('Again!')) // bold text
 
-console.log(chalk.blue('Hello', chalk.bold.bgGreen('world') + '!')); // mixed styles
+console.log(chalk.green('Hello', chalk.bold.bgGreen('world') + '!')); // mixed styles

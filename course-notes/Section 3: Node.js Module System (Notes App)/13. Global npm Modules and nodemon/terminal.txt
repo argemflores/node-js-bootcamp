@@ -1,0 +1,86 @@
+(base) ➜  notes-app git:(main) ✗ npm install nodemon@1.18.5 -g
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+
+added 234 packages, and audited 235 packages in 17s
+
+19 vulnerabilities (5 moderate, 14 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(base) ➜  notes-app git:(main) npm audit fix
+
+changed 1 package, and audited 9 packages in 2s
+
+# npm audit report
+
+validator  <13.7.0
+Severity: moderate
+Inefficient Regular Expression Complexity in validator.js - https://github.com/advisories/GHSA-qgmg-gppg-76g5
+fix available via `npm audit fix --force`
+Will install validator@13.7.0, which is a breaking change
+node_modules/validator
+
+1 moderate severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+(base) ➜  notes-app git:(main) ✗ npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating validator to 13.7.0,which is a SemVer major change.
+
+changed 1 package, and audited 9 packages in 1s
+
+found 0 vulnerabilities
+(base) ➜  notes-app git:(main) ✗ nodemon -v
+1.18.5
+(base) ➜  notes-app git:(main) ✗ node app.js
+Your notes...
+Success!
+Error!
+Warning!
+Testing!
+Again!
+Hello world!
+(base) ➜  notes-app git:(main) ✗ nodemon app.js
+[nodemon] 1.18.5
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node app.js`
+Your notes...
+Success!
+Error!
+Warning!
+Testing!
+Again!
+Hello world!
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+Your notes...
+Success!
+Error!
+Warning!
+Testing!
+Again!
+Hello world!
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+Your notes...
+Success!
+Error!
+Warning!
+Testing!
+Again!
+Hello world!
+[nodemon] clean exit - waiting for changes before restart
+^C%
+(base) ➜  notes-app git:(main) ✗

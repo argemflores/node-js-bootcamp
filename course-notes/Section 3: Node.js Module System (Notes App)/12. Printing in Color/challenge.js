@@ -1,10 +1,3 @@
-// import modules and other files
-const chalk = require('chalk')
-const getNotes = require('./notes.js')
-
-// print function results
-console.log(getNotes())
-
 //
 // Challenge: Use the chalk library in your project
 //
@@ -14,6 +7,9 @@ console.log(getNotes())
 // 4. Test your work
 //
 // Bonus: Use docs to mess around with other styles. Make text bold and inversed.
+
+// import module
+const chalk = require('chalk')
 
 console.log(chalk.green('Success!')) // green text
 console.log(chalk.red('Error!')) // red text

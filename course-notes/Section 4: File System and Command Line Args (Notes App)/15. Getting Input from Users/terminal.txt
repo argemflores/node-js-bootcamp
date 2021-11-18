@@ -1,0 +1,45 @@
+(base) ➜  notes-app git:(main) node app.js
+Your notes...
+Success!
+Error!
+Warning!
+Testing!
+Again!
+Hello world!
+(base) ➜  notes-app git:(main) node app.js Argem
+Your notes...
+Success!
+Error!
+Warning!
+Testing!
+Again!
+Hello world!
+(base) ➜  notes-app git:(main) node app.js Argem
+Your notes...
+[
+  '/usr/local/bin/node',
+  '/Users/argemflores/Workspace/node-js-bootcamp/notes-app/app.js',
+  'Argem'
+]
+(base) ➜  notes-app git:(main) ✗ node app.js Argem
+Your notes...
+Argem
+(base) ➜  notes-app git:(main) ✗ node app.js add
+Your notes...
+add
+(base) ➜  notes-app git:(main) ✗ node app.js add
+Adding note!
+(base) ➜  notes-app git:(main) ✗ node app.js remove
+(base) ➜  notes-app git:(main) ✗ node app.js remove
+Removing note!
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="This is my title"
+Adding note!
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="This is my title"
+Adding note!
+[
+  '/usr/local/bin/node',
+  '/Users/argemflores/Workspace/node-js-bootcamp/notes-app/app.js',
+  'add',
+  '--title=This is my title'
+]
+(base) ➜  notes-app git:(main) ✗

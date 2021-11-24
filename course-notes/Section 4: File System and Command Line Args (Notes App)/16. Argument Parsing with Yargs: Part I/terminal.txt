@@ -1,0 +1,145 @@
+(base) ➜  node-js-bootcamp git:(main) ✗ npm i yargs@12.0.2
+
+added 56 packages, and audited 57 packages in 5s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(base) ➜  node-js-bootcamp git:(main) ✗ npm audit fix
+
+removed 1 package, changed 4 packages, and audited 56 packages in 1s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+ansi-regex  >2.1.1 <5.0.1
+Severity: moderate
+ Inefficient Regular Expression Complexity in chalk/ansi-regex - https://github.com/advisories/GHSA-93q8-gq69-wqmw
+fix available via `npm audit fix --force`
+Will install yargs@17.2.1, which is a breaking change
+node_modules/ansi-regex
+  strip-ansi  4.0.0 - 5.2.0
+  Depends on vulnerable versions of ansi-regex
+  node_modules/strip-ansi
+    cliui  4.0.0 - 5.0.0
+    Depends on vulnerable versions of strip-ansi
+    node_modules/cliui
+      yargs  8.0.0-candidate.0 - 15.0.0
+      Depends on vulnerable versions of cliui
+      Depends on vulnerable versions of yargs-parser
+      node_modules/yargs
+    string-width  2.1.0 - 4.1.0
+    Depends on vulnerable versions of strip-ansi
+    node_modules/string-width
+
+yargs-parser  6.0.0 - 13.1.1
+Severity: moderate
+Prototype Pollution in yargs-parser - https://github.com/advisories/GHSA-p9pc-299p-vxgp
+fix available via `npm audit fix --force`
+Will install yargs@17.2.1, which is a breaking change
+node_modules/yargs-parser
+  yargs  8.0.0-candidate.0 - 15.0.0
+  Depends on vulnerable versions of cliui
+  Depends on vulnerable versions of yargs-parser
+  node_modules/yargs
+
+6 moderate severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+(base) ➜  node-js-bootcamp git:(main) ✗ npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating yargs to 17.2.1,which is a SemVer major change.
+
+added 5 packages, removed 44 packages, changed 10 packages, and audited 17 packages in 3s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+(base) ➜  node-js-bootcamp git:(main) ✗ cd notes-app
+(base) ➜  notes-app git:(main) ✗ node app.js
+[
+  '/usr/local/bin/node',
+  '/Users/argemflores/Workspace/node-js-bootcamp/notes-app/app.js'
+]
+{ _: [], '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Things to buy"
+[
+  '/usr/local/bin/node',
+  '/Users/argemflores/Workspace/node-js-bootcamp/notes-app/app.js',
+  'add',
+  '--title=Things to buy'
+]
+{ _: [ 'add' ], title: 'Things to buy', '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js --help
+[
+  '/usr/local/bin/node',
+  '/Users/argemflores/Workspace/node-js-bootcamp/notes-app/app.js',
+  '--help'
+]
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+(base) ➜  notes-app git:(main) ✗ node app.js --version
+1.0.0
+(base) ➜  notes-app git:(main) ✗ node app.js --version
+1.1.0
+(base) ➜  notes-app git:(main) ✗ node app.js --help
+app.js [command]
+
+Commands:
+  app.js add  Add a new note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+(base) ➜  notes-app git:(main) ✗ node app.js add
+Adding a new note!
+{ _: [ 'add' ], '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js --help
+app.js [command]
+
+Commands:
+  app.js add     Add a new note
+  app.js remove  Remove a note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+(base) ➜  notes-app git:(main) ✗ node app.js remove
+Removing a note!
+{ _: [ 'remove' ], '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js list
+Listing notes!
+{ _: [ 'list' ], '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js read
+Reading a note!
+{ _: [ 'read' ], '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js --help
+app.js [command]
+
+Commands:
+  app.js add     Add a new note
+  app.js remove  Remove a note
+  app.js list    List notes
+  app.js read    Read a note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+(base) ➜  notes-app git:(main) ✗

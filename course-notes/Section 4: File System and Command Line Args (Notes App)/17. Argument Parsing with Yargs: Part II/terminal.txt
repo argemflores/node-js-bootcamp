@@ -1,0 +1,47 @@
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Shopping list"
+Adding a new note! { _: [ 'add' ], title: 'Shopping list', '$0': 'app.js' }
+{ _: [ 'add' ], title: 'Shopping list', '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js add
+Adding a new note! { _: [ 'add' ], '$0': 'app.js' }
+{ _: [ 'add' ], '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js add
+app.js add
+
+Add a new note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+  --title    Note title                                               [required]
+
+Missing required argument: title
+(base) ➜  notes-app git:(main) ✗ node app.js add --title
+Adding a new note! { _: [ 'add' ], title: true, '$0': 'app.js' }
+{ _: [ 'add' ], title: true, '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js add --title
+Adding a new note! { _: [ 'add' ], title: '', '$0': 'app.js' }
+{ _: [ 'add' ], title: '', '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Shopping list"
+Adding a new note! { _: [ 'add' ], title: 'Shopping list', '$0': 'app.js' }
+{ _: [ 'add' ], title: 'Shopping list', '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Shopping list"
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Shopping list"
+Adding a new note! { _: [ 'add' ], title: 'Shopping list', '$0': 'app.js' }
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Shopping list"
+Title: Shopping list
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Shopping list"
+app.js add
+
+Add a new note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+  --title    Note title                                      [string] [required]
+  --body     Note body                                       [string] [required]
+
+Missing required argument: body
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Shopping list" --body="Eggs and milk"
+Title: Shopping list
+Body: Eggs and milk
+(base) ➜  notes-app git:(main) ✗

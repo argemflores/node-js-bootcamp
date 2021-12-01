@@ -15,10 +15,8 @@ const addNote = function(title, body) {
         return note.title === title
     })
     
-    // check before adding new note
+    // duplicates not found
     if (duplicateNotes.length === 0) {
-        // duplicates not found
-        
         // add to notes list
         notes.push({
             title: title,
@@ -47,7 +45,17 @@ const saveNotes = function(notes) {
 
 // remove note
 const removeNote = function(title) {
-    console.log(title)
+    // load all notes
+    const notes = loadNotes()
+    
+    // update notes list
+    const newNotes = notes.filter(function(note) {
+        // preserve notes not matching the title
+        return note.title !== title
+    })
+    
+    // save updated notes list
+    saveNotes(newNotes)
 }
 
 const loadNotes = function() {

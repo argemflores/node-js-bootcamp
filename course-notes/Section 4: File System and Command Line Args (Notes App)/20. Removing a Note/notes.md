@@ -1,0 +1,26 @@
+## 20. Removing a Note
+
+```js
+// remove note
+const removeNote = function(title) {
+    // load all notes
+    const notes = loadNotes()
+
+    // update notes list
+    const newNotes = notes.filter(function(note) {
+        // preserve notes not matching the title to be removed
+        return note.title !== title
+    })
+
+    // note removed (less than the original list)
+    if (newNotes.length < notes.length) {
+        // save updated notes list
+        saveNotes(newNotes)
+
+        console.log(chalk.bgGreen('Note removed!'))
+    }
+    else {
+        console.log(chalk.bgRed('No note found!'))
+    }
+}
+```

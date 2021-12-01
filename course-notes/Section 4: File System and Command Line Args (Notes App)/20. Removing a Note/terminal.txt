@@ -8,5 +8,9 @@ Options:
   --version  Show version number                                       [boolean]
   --title    Note title                                      [string] [required]
 (base) ➜  notes-app git:(main) ✗ node app.js remove --title="t"
-(base) ➜  notes-app git:(main) ✗ node app.js remove --title="x"
+No note found!
+(base) ➜  notes-app git:(main) ✗ node app.js remove --title="List 2"
+Note removed!
+(base) ➜  notes-app git:(main) ✗ node app.js remove --title="List 2"
+No note found!
 (base) ➜  notes-app git:(main) ✗

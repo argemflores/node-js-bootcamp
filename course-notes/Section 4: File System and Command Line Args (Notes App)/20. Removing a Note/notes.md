@@ -12,15 +12,16 @@ const removeNote = function(title) {
         return note.title !== title
     })
 
-    // note removed (less than the original list)
+    // note removed (updated list less than the original list)
     if (newNotes.length < notes.length) {
         // save updated notes list
         saveNotes(newNotes)
 
-        console.log(chalk.bgGreen('Note removed!'))
+        console.log(chalk.green.inverse('Note removed!'))
     }
     else {
-        console.log(chalk.bgRed('No note found!'))
+        // note not found
+        console.log(chalk.red.inverse('No note found!'))
     }
 }
 ```

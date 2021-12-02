@@ -1,0 +1,73 @@
+(base) ➜  playground git:(main) ✗ nodemon 3-arrow-challenge.js
+[nodemon] 1.18.5
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node 3-arrow-challenge.js`
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 3-arrow-challenge.js`
+/Users/argemflores/Workspace/node-js-bootcamp/playground/3-arrow-challenge.js:21
+console.log(tasks.getTasksToDo())
+                  ^
+
+TypeError: tasks.getTasksToDo is not a function
+    at Object.<anonymous> (/Users/argemflores/Workspace/node-js-bootcamp/playground/3-arrow-challenge.js:21:19)
+    at Module._compile (node:internal/modules/cjs/loader:1095:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1147:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+
+Node.js v17.0.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node 3-arrow-challenge.js`
+undefined
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 3-arrow-challenge.js`
+[
+  { text: 'Clean yard', completed: false },
+  { text: 'Film course', completed: false }
+]
+undefined
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 3-arrow-challenge.js`
+[
+  { text: 'Clean yard', completed: false },
+  { text: 'Film course', completed: false }
+]
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 3-arrow-challenge.js`
+[
+  { text: 'Clean yard', completed: false },
+  { text: 'Film course', completed: false }
+]
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 3-arrow-challenge.js`
+[
+  { text: 'Clean yard', completed: false },
+  { text: 'Film course', completed: false }
+]
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 3-arrow-challenge.js`
+[
+  { text: 'Clean yard', completed: false },
+  { text: 'Film course', completed: false }
+]
+[nodemon] clean exit - waiting for changes before restart
+^C
+
+   ╭───────────────────────────────────────╮
+   │                                       │
+   │   Update available 1.18.5 → 2.0.15    │
+   │    Run npm i -g nodemon to update     │
+   │                                       │
+   ╰───────────────────────────────────────╯
+
+(base) ➜  playground git:(main) ✗

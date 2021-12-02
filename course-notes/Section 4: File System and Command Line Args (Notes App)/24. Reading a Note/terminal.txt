@@ -1,0 +1,17 @@
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Course ideas" --body=""
+Note title taken!
+(base) ➜  notes-app git:(main) ✗ node app.js read --help
+app.js read
+
+Read a note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+  --title    Note title                                      [string] [required]
+(base) ➜  notes-app git:(main) ✗ node app.js read --title="x"
+Note not found!
+(base) ➜  notes-app git:(main) ✗ node app.js read --title="List"
+List
+Sweater, Pants
+(base) ➜  notes-app git:(main) ✗

@@ -1,0 +1,70 @@
+(base) ➜  notes-app git:(main) cd ../playground
+(base) ➜  playground git:(main) ✗ nodemon 2-arrow-function.js
+[nodemon] 1.18.5
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node 2-arrow-function.js`
+9
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+9
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+9
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+4
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+Guest list for Birthday Party
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+Guest list for undefined
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+Guest list for Birthday Party
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+Guest list for Birthday Party
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+Guest list for Birthday Party
+Argem is attending undefined
+Andrew is attending undefined
+Jen is attending undefined
+Mike is attending undefined
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+Guest list for Birthday Party
+Argem is attending Birthday Party
+Andrew is attending Birthday Party
+Jen is attending Birthday Party
+Mike is attending Birthday Party
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+Guest list for Birthday Party
+Argem is attending undefined
+Andrew is attending undefined
+Jen is attending undefined
+Mike is attending undefined
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node 2-arrow-function.js`
+Guest list for Birthday Party
+Argem is attending Birthday Party
+Andrew is attending Birthday Party
+Jen is attending Birthday Party
+Mike is attending Birthday Party
+[nodemon] clean exit - waiting for changes before restart
+^C%
+(base) ➜  playground git:(main) ✗

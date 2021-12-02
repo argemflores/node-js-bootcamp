@@ -3,7 +3,7 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // const getNotes = () => 'Your notes...'
-const getNotes = () {
+const getNotes = () => {
     return 'Your notes...'
 }
 
@@ -65,6 +65,7 @@ const removeNote = (title) => {
     }
 }
 
+// load all notes
 const loadNotes = () => {
     // read notes.json file
     try {

@@ -1,0 +1,7 @@
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Course ideas" --body=""
+New note added!
+(base) ➜  notes-app git:(main) ✗ node app.js list
+Your notes...
+List
+Course ideas
+(base) ➜  notes-app git:(main) ✗

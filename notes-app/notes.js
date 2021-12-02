@@ -12,11 +12,11 @@ const addNote = (title, body) => {
     // load all notes
     const notes = loadNotes()
     
-    // find duplicates via title
-    const duplicateNotes = notes.filter((note) => note.title === title)
+    // find note with the same title
+    const duplicateNote = notes.find((note) => note.title === title)
     
-    // duplicates not found
-    if (duplicateNotes.length === 0) {
+    // duplicate not found
+    if (!duplicateNote) {
         // add to notes list
         notes.push({
             title: title,
@@ -29,7 +29,7 @@ const addNote = (title, body) => {
         console.log(chalk.green.inverse('New note added!'))
     }
     else {
-        // duplicates found
+        // duplicate found
         console.log(chalk.red.inverse('Note title taken!'))
     }
 }

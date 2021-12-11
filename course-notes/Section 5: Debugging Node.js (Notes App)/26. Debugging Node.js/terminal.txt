@@ -1,0 +1,111 @@
+(base) ➜  node-js-bootcamp git:(main) ✗ cd notes-app                                                                                    21.12.11 16:35:08
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Courses" --body="Node.js"                                                     21.12.11 16:35:10
+undefined
+New note added!
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Courses" --body="Node.js"                                                     21.12.11 16:35:39
+{ title: 'Courses', body: 'Node.js' }
+Note title taken!
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Courses" --body="Node.js"                                                     21.12.11 16:35:41
+{ title: 'Courses', body: 'Node.js' }
+Courses
+Note title taken!
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Courses" --body="Node.js"                                                     21.12.11 16:35:47
+Note title taken!
+(base) ➜  notes-app git:(main) ✗ node inspect app.js add --title="Courses" --body="Node.js"                                             21.12.11 16:36:02
+< Debugger listening on ws://127.0.0.1:9229/be0544be-3228-4066-891a-b489688dd9b7
+< For help, see: https://nodejs.org/en/docs/inspector
+<
+connecting to 127.0.0.1:9229 ... ok
+< Debugger attached.
+<
+Break on start in app.js:2
+  1 // import packages
+> 2 const chalk = require('chalk')
+  3 const yargs = require('yargs')
+  4 const notes = require('./notes.js')
+< Debugger attached.
+<
+< Debugger attached.
+<
+< Debugger attached.
+<
+break in notes.js:18
+ 16     const duplicateNote = notes.find((note) => note.title === title)
+ 17
+>18     debugger
+ 19
+ 20     // duplicate not found
+< Note title taken!
+<
+< Waiting for the debugger to disconnect...
+<
+debug> restart
+< Debugger listening on ws://127.0.0.1:9229/9dcc6c32-b3b4-4074-9e91-797d1a44d044
+< For help, see: https://nodejs.org/en/docs/inspector
+<
+< Debugger attached.
+<
+debug>  ok
+Break on start in app.js:2
+  1 // import packages
+> 2 const chalk = require('chalk')
+  3 const yargs = require('yargs')
+  4 const notes = require('./notes.js')
+debug>
+(base) ➜  node-js-bootcamp git:(main) ✗ cd notes-app                                                                                    21.12.11 16:35:08
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Courses" --body="Node.js"                                                     21.12.11 16:35:10
+undefined
+New note added!
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Courses" --body="Node.js"                                                     21.12.11 16:35:39
+{ title: 'Courses', body: 'Node.js' }
+Note title taken!
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Courses" --body="Node.js"                                                     21.12.11 16:35:41
+{ title: 'Courses', body: 'Node.js' }
+Courses
+Note title taken!
+(base) ➜  notes-app git:(main) ✗ node app.js add --title="Courses" --body="Node.js"                                                     21.12.11 16:35:47
+Note title taken!
+(base) ➜  notes-app git:(main) ✗ node inspect app.js add --title="Courses" --body="Node.js"                                             21.12.11 16:36:02
+< Debugger listening on ws://127.0.0.1:9229/be0544be-3228-4066-891a-b489688dd9b7
+< For help, see: https://nodejs.org/en/docs/inspector
+<
+connecting to 127.0.0.1:9229 ... ok
+< Debugger attached.
+<
+Break on start in app.js:2
+  1 // import packages
+> 2 const chalk = require('chalk')
+  3 const yargs = require('yargs')
+  4 const notes = require('./notes.js')
+< Debugger attached.
+<
+< Debugger attached.
+<
+< Debugger attached.
+<
+break in notes.js:18
+ 16     const duplicateNote = notes.find((note) => note.title === title)
+ 17
+>18     debugger
+ 19
+ 20     // duplicate not found
+< Note title taken!
+<
+< Waiting for the debugger to disconnect...
+<
+debug> restart
+< Debugger listening on ws://127.0.0.1:9229/9dcc6c32-b3b4-4074-9e91-797d1a44d044
+< For help, see: https://nodejs.org/en/docs/inspector
+<
+< Debugger attached.
+<
+debug>  ok
+Break on start in app.js:2
+  1 // import packages
+> 2 const chalk = require('chalk')
+  3 const yargs = require('yargs')
+  4 const notes = require('./notes.js')
+debug>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+debug>
+(base) ➜  notes-app git:(main) ✗                                                                                                        21.12.11 16:49:46

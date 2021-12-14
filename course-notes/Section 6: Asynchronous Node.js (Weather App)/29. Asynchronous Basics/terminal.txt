@@ -1,0 +1,15 @@
+➜  node-js-bootcamp git:(main) ✗ cd weather-app
+➜  weather-app git:(main) ✗ node app.js
+Starting
+Stopping
+2 Second Timer
+➜  weather-app git:(main) ✗ node app.js
+Starting
+Stopping
+2 Second Timer
+➜  weather-app git:(main) ✗ node app.js
+Starting
+Stopping
+0 Second Timer
+2 Second Timer
+➜  weather-app git:(main) ✗
